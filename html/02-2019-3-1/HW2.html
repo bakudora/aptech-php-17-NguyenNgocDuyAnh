@@ -2,48 +2,64 @@
 <html>
     <head>
         <style>
+        .Bigdad{
+            display: flex;
+            height: auto;
+            background:chocolate;
+        }
         .dad{
             display: flex;
             height: 05rem;
             margin: 5px;
         }
         .son1{
-            width: 30%;
+            width: 28%;
             background: red;
         }
         .son2{
-            width: 70%;
+            width: 68%;
             background: blue;
         }
         .son3{
-            width: 50%;
+            width: 48%;
             background: green;
         }
         .son4{
-            width: 50%;
+            width: 48%;
             background: brown;
+        }
+        .son5{
+            width: 2%;
+            background: white;
         }
         </style>
     </head>
     <body>
-        <div class="dad">
-            <div class="son1"></div>
-            <div class="son2"></div>
-        </div>
-
-        <div class="dad">
-            <div class="son3"></div>
-            <div class="son4"></div>
+        <div class="bigdad">
+                <div class="dad">
+                        <div class="son1"></div>
+                        <div class="son5"></div>
+                        <div class="son2"></div>
+                    </div>
+            
+                    <div class="dad">
+                        <div class="son3"></div>
+                        <div class="son5"></div>
+                        <div class="son4"></div>
+                    </div>
+                    
+                    <div class="dad">
+                        <div class="son4"></div>
+                        <div class="son5"></div>
+                        <div class="son3"></div>
+                    </div>
+                    <div class="dad">
+                        <div class="son2"></div>
+                        <div class="son5"></div>
+                        <div class="son1"></div>
+                    </div>
         </div>
         
-        <div class="dad">
-            <div class="son4"></div>
-            <div class="son3"></div>
-        </div>
-        <div class="dad">
-            <div class="son2"></div>
-            <div class="son1"></div>
-        </div>
 
     </body>
 </html>
